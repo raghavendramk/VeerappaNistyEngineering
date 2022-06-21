@@ -1,0 +1,246 @@
+.wrapper{
+	width: 78rem;
+	
+    
+    
+}
+@media (max-width: 992px) {
+	.wrapper {
+	  margin-top: 66px;
+	  height: auto;
+	  width: 30rem;
+	}
+  }
+
+.tabs ul{
+	display: flex;
+	background: #fbfbfb;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+@media (max-width:922px){
+	.tabs ul li{
+		height: auto;
+		width: 30px;
+		padding: 5px;
+	}
+	.tabs{
+		width: 30rem;
+		height: auto;
+	}
+}
+
+@media (max-width:922px){
+	.tabs ul li span.text{
+		height: auto;
+		
+		font-size: 15px;
+		font-weight: 600;
+		padding: 4px;
+		
+	}
+}
+
+.tabs ul li{
+	width: 250px;
+	padding: 15px;
+	border-right: 1px solid #dddddd;
+	text-align: center;
+	color: #3b3b3b;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	position: relative;
+}
+
+.tabs ul li .icon{
+	font-size: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.tabs ul li:last-child{
+	border-right: 0px;
+}
+
+.tabs ul li:before{
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #028f68;
+	opacity: 0;
+	transition: all 0.2s ease;
+}
+
+.tabs ul li:hover,
+.tabs ul li.active{
+	background: #e8f5f1;
+	color: #028f68;
+}
+
+.tabs ul li:hover:before,
+.tabs ul li.active:before{
+	opacity: 1;
+}
+
+.content{
+	background: #fbfbfb;
+	border: 1px solid green;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 40px;
+}
+
+.tab_wrap .title{
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+
+.tab_wrap .tab_content p{
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 10px;
+	margin: 20px;
+}
+
+
+
+
+
+
+/* Custom style */
+.accordion-button::after {
+	background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+	transform: scale(.7) !important;
+  }
+  .accordion-button:not(.collapsed)::after {
+	background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  }
+
+
+
+
+  /* css code for faculty frofile */
+  .team-left-icon ul li {
+	display: inline-block;
+  }
+  
+  .team-left-icon ul li a:hover {
+	color: #3EC1D5;
+	background: #fff;
+	border: 2px solid #fff;
+  }
+  
+  .team-left-icon ul li a {
+	border: 2px solid #fff;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	height: 40px;
+	line-height: 37px;
+	margin: 0 3px;
+	width: 40px;
+  }
+  
+  .team-member-carousel .single-team-member {
+	overflow: hidden;
+	width: 100%;
+  }
+  
+  .single-team-member:hover .team-img a:after {
+	opacity: 1;
+  }
+  
+  .single-team-member:hover .team-social-icon {
+	top: 45%;
+	opacity: 1;
+  }
+  
+  .team-img {
+	position: relative;
+  }
+  
+  .team-img > a {
+	display: block;
+  }
+  
+  .team-img > a::after {
+	background: rgba(0, 0, 0, 0.7);
+	bottom: 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	transition: all 0.5s ease 0s;
+	width: 100%;
+	opacity: 0;
+  }
+  
+  .team-social-icon {
+	left: 50%;
+	margin-left: -61px;
+	opacity: 0;
+	position: absolute;
+	top: 30%;
+	transition: 1.3s;
+  }
+  
+  .team-social-icon ul li {
+	display: inline-block;
+  }
+  
+  .team-social-icon ul li a {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	height: 34px;
+	width: 34px;
+	margin: 0 3px;
+  }
+  .team-social-icon ul li a i {
+	line-height: 0;
+  }
+  
+  .team-social-icon ul li a:hover {
+	color: #fff;
+	border: 1px solid #3EC1D5;
+	background: #3EC1D5;
+  }
+  
+  .team-content {
+	padding: 10px 0px;
+  }
+  
+  .team-content > h4, .team-content > p {
+	color: #444;
+	margin-bottom: 5px;
+  }
+  
+  .team-content.head-team p {
+	margin-bottom: 0;
+  }
+  
+  .team-left-icon.text-center {
+	margin-bottom: 20px;
+  }
+  
+  .head-team h4 {
+	display: inline-block;
+	font-size: 25px;
+	font-weight: 600;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+  }
+  
